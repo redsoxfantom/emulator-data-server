@@ -28,6 +28,11 @@ module.exports = {
 	Image : {
 		type : "string",
 		required : false
+	},
+	TimePlayedInSecs : {
+		type : "integer",
+		required : false,
+		defaultsTo : '0'
 	}
   }
 };
